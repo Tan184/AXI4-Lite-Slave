@@ -21,8 +21,8 @@ Transaction 3 PASSED: Zero-strobe OK
 [335000] WRITE  addr=0x0000000d data=0xa5a5a5a5 strb=0xf -> BRESP=2
 [365000] READ   addr=0x0000000d -> RDATA=0x00000000 RRESP=2
 Transaction 4 PASSED: Unaligned address SLVERR OK
-[415000] WRITE  addr=0x00000080 data=0x5555aaaa strb=0xf -> BRESP=0
-[445000] READ   addr=0x00000080 -> RDATA=0x5555aaaa RRESP=0
+[415000] WRITE  addr=0x00000080 data=0x5555aaaa strb=0xf -> BRESP=2
+[445000] READ   addr=0x00000080 -> RDATA=0x5555aaaa RRESP=2
 Transaction 5 PASSED: Out-of-range SLVERR OK
 [545000] WRITE  addr=0x00000020 data=0x0badf00d strb=0xf -> BRESP=0
 Transaction 6 PASSED: AW first, delayed W OK

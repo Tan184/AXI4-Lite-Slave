@@ -1,5 +1,4 @@
-Log is as follows:
-
+```text
 [2025-08-25 15:33:01 UTC] xrun -Q -unbuffered '-timescale' '1ns/1ns' '-sysv' '-access' '+rw' design.sv testbench.sv  
 TOOL:	xrun	23.09-s001: Started on Aug 25, 2025 at 11:33:02 EDT
 xrun: 23.09-s001: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
@@ -42,6 +41,3 @@ Finding VCD file...
 ./waveform.vcd
 [2025-08-25 15:33:03 UTC] Opening EPWave...
 Done
-
-
-It works.

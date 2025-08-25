@@ -196,4 +196,9 @@ module axi4_lite_slave #(
         end
     end
 
+    initial begin
+        $dumpfile("waveform.vcd");
+        $dumpvars();
+    end
+
 endmodule
